@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* font-family: ; */
+    background-color: #F0EAD2;
+    color: #413125;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Header styles */
+.header {
+    background-color: #ADC178;
+    padding: 32px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:visited {
+    color: #413125;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+/* Title styles */
+.title {
+    display: flex;
+    background-color: #ADC178;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.header-img {
+    width: 500px;
+    height: auto;
+}
+
+.title button {
+    background-color: #413125;
+    color: #F0EAD2;
+}
+
+
+/* Second area styles */
+h2 {
+    font-weight: 900;
+    text-align: center;
+}
+
+.content {
+    padding: 32px;
+}
+
+.items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.item img {
+    width: 200px;
+    height: auto;
+}
+
+/* Quote area */
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #DDE5B6;
+    /* align-items: center; */
+    flex: 1;
+    padding: 128px;
+}
+
+.quote {
+    font-size: 64px;
+    font-style: italic;
+    font-weight: lighter;
+    justify-content: center;
+}
+.author {
+    font-size: 32px;
+    font-weight: bold;
+    justify-content: right;
+    padding-top: 16px;
+}
+
+/* Footer styles */
+.footer {
+    margin: 100px auto;
+    background-color: #6C584C;
+    color: #F0EAD2;
+    padding: 32px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.footer button {
+    background-color: #413125;
+    color: #F0EAD2;
+    border-color: #F0EAD2;
+}
+
+
